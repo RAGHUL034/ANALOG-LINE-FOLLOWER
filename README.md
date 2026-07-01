@@ -30,17 +30,17 @@ An analog line-following robot that detects and follows a black line on a white 
 - 12V power supply
 
 ## Truth Table (Control Logic)
------------------------------------------------------------------------------------------
-| IR_L | IR_C | IR_R |       Condition        | Left Motor | Right Motor | Robot Action |
-|------|------|------|------------------------|------------|-------------|--------------|
-|  0   |  1   |  1   | Line at left           |      0     |      1      | Turn left    |
-|  1   |  0   |  1   | Line at center         |      1     |      1      | Move forward |
-|  1   |  1   |  0   | Line at right          |      1     |      0      | Turn right   |
-|  0   |  0   |  1   | Between left & center  |      0     |      1      | Hard left    |
-|  1   |  0   |  0   | Between center & right |      1     |      0      | Hard right   |
-|  0   |  0   |  0   | Line under all sensors |      1     |      1      | Move forward |
-|  1   |  1   |  1   | No line detected       |      0     |      0      | Stop / search|
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+| IR_L | IR_C | IR_R |       Condition        | Left Motor | Right Motor | Robot Action   |
+|------|------|------|------------------------|------------|-------------|----------------|
+|  0   |  1   |  1   | Line at left           |      0     |      1      | Turn left      |
+|  1   |  0   |  1   | Line at center         |      1     |      1      | Move forward   |
+|  1   |  1   |  0   | Line at right          |      1     |      0      | Turn right     |
+|  0   |  0   |  1   | Between left & center  |      0     |      1      | Slight left    |
+|  1   |  0   |  0   | Between center & right |      1     |      0      | Slight right   |
+|  0   |  0   |  0   | Line under all sensors |      1     |      1      | Move forward   |
+|  1   |  1   |  1   | No line detected       |      0     |      0      | Stop / search  |
+-------------------------------------------------------------------------------------------
 
 *(0 = line detected / sensor active, 1 = no line, based on comparator output logic)*
 
