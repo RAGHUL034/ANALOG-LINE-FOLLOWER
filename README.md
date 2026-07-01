@@ -59,7 +59,7 @@ See [`BOM.md`](BOM.md) for the full parts list with quantities and approximate c
 
 The robot successfully detected and followed a black line on a white surface, executing accurate left/right turns and maintaining a straight path when centered, with no lag or false triggering.
 
-![Robot Build](images/robot_photo.jpg)
+![Robot Build](robo_photo.jpg)
 
 ## Note on "Code"
 
