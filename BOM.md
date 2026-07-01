@@ -13,7 +13,6 @@
 | 7     | Battery Holder  | Compatible with battery used    | 1        | Rs.25              |
 | 8     | Battery         | 3.7V Lithium-ion battery        | 2        | Rs.100 each        |
 | 9     | Breadboard /PCB | For circuit assembly            | 1        | Rs.60              |
----------------------------------------------------------------------------------------------
 |                                                            **Total** | **Rs.1,100**       |
 ---------------------------------------------------------------------------------------------
 
