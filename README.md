@@ -19,7 +19,7 @@ An analog line-following robot that detects and follows a black line on a white 
 
 ## Circuit Diagram
 
-![Circuit Diagram](images/circuit_diagram.png)
+![Circuit Diagram](Circuit%20Diagram.jpg)
 
 **Core components in the circuit:**
 - LM342/LM324 op-amps configured as comparators
